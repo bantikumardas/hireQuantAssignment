@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Members Management</title>
+</head>
+<body>
+
+<div class="container">
+    <div>
+        <h1>banti</h1>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <table>
+        <!-- Table header -->
+        <thead>
+        <tr class="box">
+            <th><input type="checkbox" id="selectAll"></th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <!-- Table body -->
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <div class="pagination">
+        <button class="first-page" id="first">First</button>
+        <button class="previous-page" id="prevPage">Previous</button>
+        <span id="currentPage">Page 1</span>
+        <button class="next-page" id="nextPage">Next</button>
+        <button class="last-page" id="last">Last</button>
+    </div>
+
+    <button id="deleteSelected" class="delete-button">Delete Selected</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

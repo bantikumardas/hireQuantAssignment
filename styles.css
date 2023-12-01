@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.delete-button {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.selected {
+    background-color: #f0f0f0;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    padding: 5px;
+}
+
+#searchButton {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
